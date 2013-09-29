@@ -1,4 +1,4 @@
 Curriculum Vitae
 ================
 
-My curriculum and cover letter template.
+My curriculum and cover letter template in LaTeX.
