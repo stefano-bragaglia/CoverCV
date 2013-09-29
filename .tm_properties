@@ -1,0 +1,16 @@
+projectDirectory = "$CWD"
+windowTitle      = "$TM_DISPLAYNAME — Cover & CV"
+exclude = "{*.{aux,bbl,blg,bst,fdb_latexmk,fls,idx,ilg,ind,lof,log,lol,lot,out,toc},*.synctex.gz}"
+
+TM_LATEX_MASTER  = '${CWD}/main.tex'
+
+[ source.latex ]
+softTabs         = false
+tabSize          = 4
+softWrap         = true
+showInvisibles   = true
+spellingLanguage = 'en_GB'
+spellChecking    = true
+
+[ *.{ppt,pptx} ]
+binary           = true
