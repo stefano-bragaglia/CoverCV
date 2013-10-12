@@ -24,7 +24,7 @@
 
 % personal data
 \name{Stefano}{Bragaglia}
-\title{SE, PhD/AI}
+\title{PhD{\smaller[2]\,AI},\,MSc{\smaller[2]\,SE}}
 \address{Via Rimembranze n. 6/a}{40068 San Lazzaro di Savena}{Bologna (Italy)}
 \phone[mobile]{+39~(349)~190~90~60}
 \phone[fixed]{+39~(51)~46~59~97}
@@ -37,7 +37,7 @@
 % \extrainfo{additional information}
 \photo[64pt][0.4pt]{images/picture}
 % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
-\quote{Research associate and lecturer with a solid academic background, my proven ability is to put theory into practice. With excellent technical skills, high quality standards and a keen eye on details, I seek a position where to use Artificial Intelligence to improve software. My expertise include Statistical Relational Learning, Production Rules, Logic Formalisms and Knowledge Representation.}
+% \quote{Research associate and lecturer with a solid academic background, my proven ability is to put theory into practice. With excellent technical skills, high quality standards and a keen eye on details, I seek a position where to use Artificial Intelligence to improve software. My expertise include Statistical Relational Learning, Production Rules, Logic Formalisms and Knowledge Representation.}
 
 
 
@@ -78,7 +78,7 @@
 \opening{Dear Sir or Madam,}
 \closing{Yours faithfully,}
 % \enclosure[Attached]{curriculum vit\ae{}}
-\enclosure{curriculum vit\ae{}, publications}
+\enclosure{curriculum vit\ae{}, publications, one-page summary}
 \makelettertitle
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
@@ -103,14 +103,20 @@ Albert Einstein discovered that $e=mc^2$ in 1905.
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
-\section{Education}
-\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
-\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+\input{sections/employment}
 
-\section{Master thesis}
-\cvitem{title}{\emph{Title}}
-\cvitem{supervisors}{Supervisors}
-\cvitem{description}{Short thesis abstract}
+\input{sections/education}
+
+\input{sections/experience}
+
+% \section{Education}
+% \cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
+% \cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+% 
+% \section{Master thesis}
+% \cvitem{title}{\emph{Title}}
+% \cvitem{supervisors}{Supervisors}
+% \cvitem{description}{Short thesis abstract}
 
 \section{Experience}
 \subsection{Vocational}
@@ -166,8 +172,6 @@ Detailed achievements:%
   \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
   \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
 \end{cvcolumns}
-
-\input{sections/projects}
 
 \input{sections/notes}
 
